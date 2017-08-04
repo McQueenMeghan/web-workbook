@@ -26,7 +26,7 @@ $(document).ready(function() {
        $(this).text('o');
      }
 
- // win contition
+ // win condition
    if(checkWinner() && play) {
      announcement.text('Player x won!');
    } else if (checkWinner() && !play) {
